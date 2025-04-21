@@ -1,6 +1,6 @@
 # iTunes Search App
 
-A React Native app built with Expo to search for music tracks and artists using the [iTunes Search API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/). Search, view details, play previews, add to favorites, and rate your favorite tracks.
+A React Native app built with Expo to search for music tracks and artists using the iTunes Search API. Search, view details, play previews, add to favorites, and rate your favorite tracks.
 
 ## Features
 
@@ -26,11 +26,14 @@ A React Native app built with Expo to search for music tracks and artists using 
    ```
 
 3. **Start the Expo Server**:
+
    ```bash
-   npm start
+   npx expo start
    ```
-   - Scan the QR code with the Expo Go app on your device.
-   - Or run on an emulator: `npm run android` or `npm run ios`.
+
+   - Install the Expo Go app on your iOS or Android device.
+   - Scan the QR code displayed in the terminal or browser with the Expo Go app to run the app on your device.
+   - Alternatively, run on an emulator: `npx expo start --android` or `npx expo start --ios`.
 
 ## Usage
 
@@ -58,4 +61,4 @@ A React Native app built with Expo to search for music tracks and artists using 
 
 ## License
 
-[0BSD License](LICENSE)
+MIT License
